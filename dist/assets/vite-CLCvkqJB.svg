@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Premium Accent Gradient -->
+    <linearGradient id="havenlyGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#C7923E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base: Deep Neutral Frame -->
+  <rect width="512" height="512" rx="112" fill="#121619" />
+
+  <!-- Inner Architectural Haven Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Left Pillar of "H" / Structure -->
+    <rect x="136" y="200" width="48" height="176" rx="8" fill="#FFFFFF" />
+
+    <!-- Right Pillar of "H" / Structure -->
+    <rect x="328" y="200" width="48" height="176" rx="8" fill="#FFFFFF" />
+
+    <!-- Editorial Roof Arch / Havenly Roofline -->
+    <path 
+      d="M112 208 L256 96 L400 208" 
+      fill="none" 
+      stroke="url(#havenlyGold)" 
+      stroke-width="44" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+
+    <!-- Minimalist Architectural Crossbeam completing the 'H' -->
+    <rect x="184" y="280" width="144" height="40" rx="4" fill="url(#havenlyGold)" />
+  </g>
+</svg>
